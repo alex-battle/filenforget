@@ -24,8 +24,10 @@ class DocsController < ApplicationController
             render 'edit'
         end
     end
+    
     def edit
     end
+
     def destroy
         @doc.destroy
         redirect_to docs_path
